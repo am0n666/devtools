@@ -22,6 +22,6 @@ return new \Phalcon\Config([
         'migrationsDir'  => APP_PATH . '/migrations/',
         'viewsDir'       => APP_PATH . '/views/',
         'staticUri'      => STATIC_APP_URI."/",
-        'baseUri'        => STATIC_APP_URI,
+        'baseUri'        => STATIC_APP_URI."/",
     ]
 ]);

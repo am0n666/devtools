@@ -32,6 +32,6 @@ return new \Phalcon\Config([
         // of the webpspace.  This will break if the public/index.php entry point is moved or
         // possibly if the web server rewrite rules are changed. This can also be set to a static path.
         'staticUri'      => STATIC_APP_URI."/",
-        'baseUri'        => STATIC_APP_URI,
+        'baseUri'        => STATIC_APP_URI."/",
     ]
 ]);
